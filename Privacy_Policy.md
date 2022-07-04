@@ -20,7 +20,9 @@ Moreover, before accessing the camera from app, the user is asked for consent in
 
 <img src="https://github.com/NicoloAlbanese/awesome-ocr/blob/main/img/consent_request.png" width="600">
 
-The processing involves extracting text present in input images. The text can be exported by the user from the app to the clipboard. The app does not store the text identified in input images.
+The processing involves extracting text present in input images. The text can be exported by the user from the app to the clipboard. 
+
+The app processes the data in an ephemeral manner. Processing data “ephemerally” means accessing and using it while the data is only stored in memory and retained for no longer than necessary to service the specific request in real-time. The extracted text is not saved or persisted by the app.
 
 For any question or vulnerability that may have been inadvertently caused by me, please send me an email and I will surely try to fix it/help you.
 
